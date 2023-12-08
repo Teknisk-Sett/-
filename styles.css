@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: verdana, arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(24, 24, 24);
+    margin: 0;
+  }
+  
+  header{
+    width: 100%;
+    background-color: #3a015c;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1px;
+    height: 4em
+  }
+  
+  nav{
+    float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
+    width: 100%;
+    height: 100%;
+    background-image: url(Textures/bar.png);
+    position:static; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
+    top: 0px;
+  }
+  
+  nav ul {
+    margin:0;
+    padding: 0px;;
+  }
+  
+  nav li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid #87c2c4;
+    height: 30px;
+  }
+  
+  /*CSS-regelen under gjør at den siste lenka flyter helt til høyre i vinduet i stedet for til venstre ved siden av de andre. Ta bort kommentarmarkørene for å se hvordan det virker.*/
+  /*nav li:last-child{
+    float: right;
+    border-right: none;
+    border-left: 1px solid #f06d06;
+  }*/
+  
+  nav a {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-decoration-line: none;
+    color: rgb(46, 57, 59);
+    padding: 6px;
+
+  }
+  
+  nav a:hover{
+    background-color: rgb(235, 253, 255);
+    color: #999999;
+    height:  30px;
+  }
+  
+  main{    
+    clear:left;
+    width: 90%;
+    padding: 1em;
+    margin: auto;
+  } 
+    
+  footer {
+    text-align: center;
+    padding: 7px;
+    background-color: #595758;
+    color: white;
+    text-decoration-line: none;
+    margin: 0px;
+  }
+  
+  iframe{
+    bottom: 1px;
+    margin: 0px;
+  }
+
+  code{
+    font-size: 1.3em;
+  }
+
+  #foota{
+    text-decoration-line: none;
+    color: white;
+  }
+
+  .fillpic {
+    position:absolute;
+    bottom: 22px;
+    left:  0px;
+  }
+
+  #ishad {
+    box-shadow: 0px 4px #3a015c;
+    border: none;
+  }
+
+  #pe {
+    width: 57%;
+  }
+
+  #he3 {
+    font-size: 20px;
+  }
