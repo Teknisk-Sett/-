@@ -6,21 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form onsubmit="goToWebsite(event)">
-        <input type="text" id="websiteInput" placeholder="Skriv inn en nettside URL">
-      </form>
-      
-      <script>
-        function goToWebsite(event) {
-          event.preventDefault();
-          var url = document.getElementById("websiteInput").value;
-          
-          if (!url.startsWith("http://") && !url.startsWith("https://")) {
-            url = "https://" + url;
-          }
-          
-          window.location.href = url;
-        }
+  <article>
+    <h2 id="anker1">Teknisk Sett UBs Nettside</h2>
+    <p id="pe">Velkommen til Teknisk Sett sin nettside! Teknisk Sett UB er en ungdomsbedrift som fokuserer på å lage podcaster om teknologi og relaterte emner, men det kan også hende at vi blander inn noen gøyale temaer! Vi er dedikerte til å utforske og formidle spennende temaer innen teknologi til et bredt publikum, inkludert både teknologiinteresserte og andre målgrupper.</p>
+    <br>
+    <p id="pe">Vi består av 4 hovedpodkastere: Benjamin, Daniel, Julian og Morten. Med en felles lidenskap for teknologi bringer våre podkastere med seg en mangfoldig kompetanse og perspektiver og mye annet tull. Julian er kjent for sin grundige kunnskap om programmering og programvareutvikling, og gir innsikt i de nyeste trendene og innovasjonene i teknologibransjen. Daniel derimot, spesialiserer seg på kritiske spørsmål, og gir anmeldelser og anbefalinger for teknologiinteresserte som ønsker å holde seg oppdatert i trender i "teknologiverden". 
+      <p id="pe"> Benjamin bringer en kreativ og humoristisk touch til teamet, og utforsker skjæringspunktet mellom teknologi og humor, mens Morten er vår maskot og fokuserer på mye annet, og belyser viktigheten av å være teknologisk interessert. </p>
+    <img src="IMG_2625.jpg" height="42%"
+    style="
+    float: right; 
+    position: absolute; 
+    right: 100px;
+    top: 180px">
+    <br> 
+    <p id="he3">Hvilket utstyr vi bruker</p>
+    <p id="pe">For å produsere podkaster trenger en riktig utstyr, og da må utstyret helst gjøre en god jobb. Opptaksverktøyet vi bruker er en RødeCaster Pro.</p>
+    <br style="line-height: 250px;">
       </script>
 </body>
 </html>

@@ -103,3 +103,31 @@ h2 {
     padding-bottom: 12px;
     padding-top: 20px
 }
+
+#txtlnk {
+    position: absolute;
+    top: 130px;
+    left: 90em;
+    color: aliceblue;
+    width: 190px;
+}
+
+#txtlnk2 {
+    position: absolute;
+    top: 130px;
+    left: 75em;
+    color: aliceblue;
+    width: 150px;
+}
+
+#txtlnk, #txtlnk2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link, a:visited {
+    color: aliceblue;
+    text-decoration-line: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+
+}

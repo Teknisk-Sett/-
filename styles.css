@@ -32,7 +32,7 @@
     padding: 0px;;
   }
   
-  nav li {
+  .navili {
     float: left;
     list-style-type: none;
     border-right: 1px solid #87c2c4;
@@ -87,7 +87,7 @@
     font-size: 1.3em;
   }
 
-  #foota{
+  .foota, .foota:visited{
     text-decoration-line: none;
     color: white;
   }
@@ -101,13 +101,79 @@
   #ishad {
     box-shadow: 0px 4px #3a015c;
     border: none;
+    padding-top: 100px;
   }
 
   #pe {
-    width: 56%;
-    font-size: 99%;
+    font-size: 119%;
   }
 
   #he3 {
     font-size: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .main {
+    float: left;
+    width: 58%;
+    padding: 20px 7em;
+    overflow: hidden;
+  }
+  .right {
+    float: left;
+    width: 42%;
+    padding: 100px 20px;
+    margin-top: 7px;
+  }
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 2%;
+    }
+    .right {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    #pe {
+      font-size: 8px;
+      line-height: 13px;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    img {
+      max-width: 300px;
+      max-height: 200px
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    #ishad, #anker1, #he3, #h0 {
+      font-size: 14px;
+      line-height: 13px;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #websiteInput {
+      width: 70px;
+      font-size: 8px;
+    }
   }
