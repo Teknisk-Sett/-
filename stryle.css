@@ -140,3 +140,10 @@ a:link, a:visited {
     left: -45px
     }
   }
+
+  @media only screen and (max-width:800px){
+    #logo {
+      width: 52px;
+      padding-left: 10px;
+    } 
+  }

@@ -103,6 +103,13 @@
     border: none;
   }
 
+  #hea {
+    float: left;
+    padding-left: 1%;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
   /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -229,13 +236,12 @@
   }
 
   @media only screen and (max-width:800px) {
-    #ishad, #anker1, #he3, #h0, h1, h2 {
-      font-size: 14px;
+    #ishad, #anker1, #he3, #hea, h1, h2 {
+      font-size: 16px;
       line-height: 13px;
       padding: 0;
     }
   }
-
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     #websiteInput {
@@ -246,7 +252,14 @@
 
   @media only screen and (max-width:800px) {
     p, #foota, a, footer {
-      font-size: 8px;
+      font-size: 11px;
       line-height: 13px;
     }
+  }
+
+  @media only screen and (max-width:800px){
+    #logo {
+      width: 52px;
+      padding-left: 10px;
+    } 
   }
