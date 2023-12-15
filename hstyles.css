@@ -258,7 +258,7 @@
   }
 
   @media only screen and (max-width:800px) {
-    p, #foota  {
+    p, #foota, #anker1  {
       font-size: 11px;
       line-height: 13px;
     }
