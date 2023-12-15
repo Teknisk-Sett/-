@@ -118,13 +118,13 @@
   
   .main {
     float: left;
-    width: 58%;
+    width: 56%;
     padding: 20px 7em;
     overflow: hidden;
   }
   .right {
     float: left;
-    width: 42%;
+    width: 44%;
     padding: 100px 20px;
     margin-top: 7px;
   }
@@ -166,10 +166,7 @@
 
   @media only screen and (max-width:800px) {
     /* For tablets: */
-    img {
-      max-width: 300px;
-      max-height: 200px
-    }
+
   }
 
   @media only screen and (max-width:800px) {
@@ -177,13 +174,15 @@
       font-size: 16px;
       line-height: 13px;
       padding: 0;
-    }
-  }
-  @media only screen and (max-width:800px){
+    }    
     #logo {
       width: 52px;
       padding-left: 10px;
-    } 
+    }    
+    img {
+      max-width: 300px;
+      max-height: 200px
+    }
   }
 
   @media only screen and (max-width:500px) {
@@ -191,5 +190,25 @@
     #websiteInput {
       width: 70px;
       font-size: 8px;
+    }
+  }
+
+  @media only screen and (width:1280px) {
+    /* For tablets: */
+    #mainimg {
+      max-width: 700px;
+      max-height: 300px;
+      padding-top: -10px;
+      background-position-y: 1000px;
+    }
+    .right {
+      width: 38%;
+      padding: 0px;
+      padding-top: 120px;
+    }
+    .main {
+      padding-left: 50px;
+      width: 62%;
+      padding-right: 50px;
     }
   }
