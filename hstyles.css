@@ -87,7 +87,7 @@
     font-size: 1.3em;
   }
 
-  #foota{
+  .foota, .foota:visited{
     text-decoration-line: none;
     color: white;
   }
@@ -225,5 +225,28 @@
   /* Make all right containers behave like the left ones */
     .right {
       left: 0%;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    #ishad, #anker1, #he3, #h0, h1, h2 {
+      font-size: 14px;
+      line-height: 13px;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #websiteInput {
+      width: 70px;
+      font-size: 8px;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    p, #foota, a, footer {
+      font-size: 8px;
+      line-height: 13px;
     }
   }

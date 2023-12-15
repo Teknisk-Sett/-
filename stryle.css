@@ -48,6 +48,7 @@ h2 {
     height: 120px;
     text-align:left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; top: 265px; left: 100px
 }
 
 .button3 {
@@ -131,3 +132,11 @@ a:link, a:visited {
     font-size: 110%;
 
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+.button1, .button2, .button3 {
+    position: absolute;
+    left: -45px
+    }
+  }
