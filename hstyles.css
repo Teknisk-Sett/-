@@ -18,6 +18,10 @@
     height: 4em
   }
   
+  #websiteInput {
+    top: 26px;
+  }
+
   nav{
     float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
     width: 100%;
@@ -246,21 +250,23 @@
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     #websiteInput {
-      width: 70px;
+      width: 72px;
       font-size: 8px;
+      height: 20px;
+      top: 19px;
     }
   }
 
   @media only screen and (max-width:800px) {
-    p, #foota, a {
+    p, #foota  {
       font-size: 11px;
       line-height: 13px;
     }
-    footer {
+    footer, a {
       font-size: 8px;
     }
     nav {
-      padding-top: 2px;
+      padding-top: 1px;
     }
   }
 

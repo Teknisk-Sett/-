@@ -31,6 +31,10 @@
     margin:0;
     padding: 0px;;
   }
+
+  #websiteInput {
+    top: 26px;
+  }
   
   .navili {
     float: left;
@@ -198,11 +202,14 @@
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     #websiteInput {
-      width: 70px;
+      width: 72px;
       font-size: 8px;
+      height: 20px;
+      top: 19px;
     }
     .right {
       padding-left: 10%;
+      padding-bottom: 10%;
     }
   }
 
