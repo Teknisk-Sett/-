@@ -115,6 +115,7 @@
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 300px;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -251,9 +252,15 @@
   }
 
   @media only screen and (max-width:800px) {
-    p, #foota, a, footer {
+    p, #foota, a {
       font-size: 11px;
       line-height: 13px;
+    }
+    footer {
+      font-size: 8px;
+    }
+    nav {
+      padding-top: 2px;
     }
   }
 
