@@ -11,36 +11,31 @@
   
   header{
     width: 100%;
-    background-color: #3a015c;
+    background-color: #47265a;
     color: whitesmoke;
     text-align: center;
     padding: 1px;
-    height: 4em
+    height: 4.6em;
+    border-bottom: solid 6px #ebfcfb;
+    outline: solid powderblue 1px;
   }
   
-  #websiteInput {
-    top: 26px;
-  }
-
   nav{
     float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
     width: 100%;
     height: 100%;
-    background-image: url(Textures/bar.png);
-    position:static; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
-    top: 0px;
+    position: relative; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
+    top: -25px;
+    padding-left: 309px;
   }
   
   nav ul {
     margin:0;
     padding: 0px;;
   }
-  
-  nav li {
-    float: left;
-    list-style-type: none;
-    border-right: 1px solid #87c2c4;
-    height: 30px;
+
+  #websiteInput {
+    top: 26px;
   }
   
   /*CSS-regelen under gjør at den siste lenka flyter helt til høyre i vinduet i stedet for til venstre ved siden av de andre. Ta bort kommentarmarkørene for å se hvordan det virker.*/
@@ -57,19 +52,36 @@
     text-decoration-line: none;
     color: rgb(46, 57, 59);
     padding: 6px;
-
   }
   
+  li {
+    margin: 0 3px;
+    float: left;
+    list-style-type: none;
+    border-radius: 4px;
+    border: 1px solid #111;
+    background: #250935 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+   }
+  li a {
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+   }
+
   nav a:hover{
-    background-color: rgb(235, 253, 255);
-    color: #999999;
-    height:  30px;
+    background-color: #9f9f9f;
+    color: #fff;
+    border-radius: 2px;
   }
   
   main{    
     clear:left;
     width: 90%;
-    padding: 1em;
+    padding: 0px;
     margin: auto;
   } 
     
@@ -94,6 +106,10 @@
   .foota, .foota:visited{
     text-decoration-line: none;
     color: white;
+  }
+
+  #logo {
+    margin-left: 20px;
   }
 
   .fillpic {
@@ -160,7 +176,7 @@
   .left {
     left: 0;
   }
-  
+
   /* Place the container to the right */
   .right {
     left: 50%;
