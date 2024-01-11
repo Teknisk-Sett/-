@@ -25,7 +25,7 @@
     width: 100%;
     height: 100%;
     position: relative; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
-    top: -25px;
+    top: -30px;
     padding-left: 309px;
   }
   
@@ -153,8 +153,14 @@
   #hea {
     float: left;
     padding-left: 1%;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bolder;
+    font-family: FrancoisOne;
+  }
+
+  @font-face {
+    font-family: FrancoisOne;
+    src: url(AnekMalayalam-VariableFont_wdth\,wght.ttf);
   }
 
 
@@ -229,8 +235,6 @@
     }
     header{
       width: 100%;
-      background-color: #595758;
-      color: whitesmoke;
       text-align: center;
       padding: 1px;
       height: 7em;
