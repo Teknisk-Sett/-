@@ -23,7 +23,7 @@
   nav{
     float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
     width: 100%;
-    height: 30px;
+    height: 10px;
     position: relative; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
     top: -30px;
     padding-left: 309px;
@@ -36,24 +36,6 @@
 
   #websiteInput {
     top: 26px;
-  }
-
-  #butt a{
-    position: relative;
-    top: -78px;
-    right: -1620px;
-    background: #47265a url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
-    border-radius: 2px;
-    border: 1px solid black;
-    color: white;
-    text-decoration-line: none;
-    padding: 5px
-  }
-  
-  #butt {
-    height: 0px;
-    background: transparent;
-    border: none;
   }
 
   nav a {
@@ -273,7 +255,6 @@
       width: 320px;
       height: 200px;
       padding-left: 0px
-    }
   }
 
   @media only screen and (max-width:800px) {

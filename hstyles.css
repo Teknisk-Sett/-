@@ -340,8 +340,20 @@
     footer, a {
       font-size: 8px;
     }
-    nav {
-      padding-top: 1px;
+    nav{
+      position: relative; 
+      top: -30px;
+      padding-left: 0px;
+      height: 28px
+    }
+    header{
+      width: 100%;
+      text-align: center;
+      padding: 1px;
+      height: 9em;
+      border-bottom: solid 6px #ebfcfb;
+      box-shadow: 1000px 1000px #595758 ;
+      outline: solid powderblue 1px;
     }
   }
 
