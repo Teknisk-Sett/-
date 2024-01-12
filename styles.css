@@ -23,7 +23,7 @@
   nav{
     float: left; /*Gjør at child-elementer som flyter (float), holder seg inne i boksen */
     width: 100%;
-    height: 100%;
+    height: 30px;
     position: relative; /*Gjør at menylinja fester seg til et fast punkt i vinduet når man skroller. Hvor den fester seg, angir man med top, left, right og/eller bottom, som på neste linje.*/
     top: -30px;
     padding-left: 309px;
@@ -38,14 +38,24 @@
     top: 26px;
   }
 
+  #butt a{
+    position: relative;
+    top: -78px;
+    right: -1620px;
+    background: #47265a url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+    border-radius: 2px;
+    border: 1px solid black;
+    color: white;
+    text-decoration-line: none;
+    padding: 5px
+  }
   
-  /*CSS-regelen under gjør at den siste lenka flyter helt til høyre i vinduet i stedet for til venstre ved siden av de andre. Ta bort kommentarmarkørene for å se hvordan det virker.*/
-  /*nav li:last-child{
-    float: right;
-    border-right: none;
-    border-left: 1px solid #f06d06;
-  }*/
-  
+  #butt {
+    height: 0px;
+    background: transparent;
+    border: none;
+  }
+
   nav a {
     display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,29 +66,88 @@
   }
   
   li {
-    margin: 0 3px;
+    margin: 0 -1px;
     float: left;
     list-style-type: none;
-    border-radius: 4px;
-    border: 1px solid #111;
-    background: #250935 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+    border-radius: 2px;
+    border-right: 1px solid #111;
+    border-left: 1px solid #111;
+    box-shadow: #8f5faa inset 1px 0px, #8f5faa inset -1px 0px;
+    height: 48px;
+    position: relative;
+    top: -32px;
    }
   li a {
-    padding: 5px 20px 5px 20px;
+    padding: 17px 20px 5px 20px;
     text-decoration: none;
-    font-weight: bold;
     line-height: 1;
     font-size: 14px;
     display: block;
     color: #fff !important;
+    font-family: FrancoisOne;
+   }
+
+   li a:hover {
+    padding: 24px 21px 5px 19px;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 14px;
+    display: block;
+    color: #ebfcfb !important;
+    text-shadow: #ebfcfb 0px 0px 2px;
+    font-family: FrancoisOne;
    }
 
   nav a:hover{
     background-color: #9f9f9f;
     color: #fff;
     border-radius: 2px;
+    height: 48px;
+    border-top: 5px solid #ebfcfb;
+    background: #47265a url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+    position: relative;
+    width: 98%;
+    top: -12px;
+    margin-left: 1px;
+    margin-right: -1px;
+  }
+
+  .liactive {
+    color: #fff;
+    border-radius: 2px;
+    height: 74px;
+    border-top: 5px solid #ebfcfb;
+    background: #3e2250 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+    position: relative;
+    top: -37px;
+    margin-top: -7px;
+    box-shadow:#47265a inset -0px -10px, #8f5faa inset 1px 0px;
   }
   
+  .textive {
+    padding: 24px 20px 5px 20px;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    font-family: FrancoisOne;
+  }
+
+  .textive:hover {
+    padding: 24px 21px 5px 19px;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 14px;
+    display: block;
+    color: #ebfcfb !important;
+    text-shadow: #ebfcfb 0px 0px 2px;
+    background: #3e2250 url(http://fil.nrk.no/contentfile/web/globalnavigation/topgradient-white.png) repeat-x;
+    font-family: FrancoisOne;
+    position: relative;
+    top: -5px
+  }
+
   main{    
     clear:left;
     width: 90%;
@@ -140,7 +209,7 @@
   .main {
     float: left;
     width: 56%;
-    padding: 0px 7em;
+    padding: 0px 6em;
     overflow: hidden;
   }
   .right {
@@ -160,7 +229,7 @@
 
   @font-face {
     font-family: FrancoisOne;
-    src: url(AnekMalayalam-VariableFont_wdth\,wght.ttf);
+    src: url(Exo-VariableFont_wght.ttf);
   }
 
 
@@ -230,22 +299,18 @@
     }
     nav{
       position: relative; 
-      top: -16px;
-      padding-left: 309px;
+      top: -30px;
+      padding-left: 0px;
+      height: 28px
     }
     header{
       width: 100%;
       text-align: center;
       padding: 1px;
-      height: 7em;
+      height: 9em;
       border-bottom: solid 6px #ebfcfb;
       box-shadow: 1000px 1000px #595758 ;
       outline: solid powderblue 1px;
-    }
-    nav{
-      position: relative; 
-      top: 29px;
-      padding-left: 20px;
     }
 
   }
