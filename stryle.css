@@ -88,7 +88,7 @@ h2 {
 
 .button5 {
     border: none;
-    background-image: url(/Textures/box6.png) ;
+    background-image: url(/Textures/boxd.png) ;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -96,11 +96,30 @@ h2 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 120px;
+    width: 113px;
     height: 120px;
     text-align:left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute; top: 265px; left: 270px;
+    padding-bottom: 12px;
+    padding-top: 20px
+}
+
+.button6 {
+    border: none;
+    background-image: url(/Textures/boxd1.png) ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 113px;
+    height: 120px;
+    text-align:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; top: 265px; left: 404px;
     padding-bottom: 12px;
     padding-top: 20px
 }
