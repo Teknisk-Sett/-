@@ -28,6 +28,29 @@
     top: -30px;
     padding-left: 309px;
   }
+
+  #text {
+    position: relative;
+    top: 400px;
+    padding-bottom: 400px;
+    line-height: 30pt;
+  }
+
+  #front {
+    font-family: FrancoisOne;
+    font-size: 80pt;
+  }
+
+  #podcast-button {
+    height: 60px; 
+    padding: 18px;
+    padding-bottom: 50px;
+    font-size: 20pt;
+    color: #8f5faa;
+    border-radius: 40px;
+    background: transparent;
+    border-color: #8f5faa;
+  }
   
   nav ul {
     margin:0;
@@ -132,7 +155,7 @@
 
   main{    
     clear:left;
-    width: 90%;
+    width: 100%;
     padding: 0px;
     margin: auto;
   } 
@@ -153,6 +176,11 @@
 
   code{
     font-size: 1.3em;
+  }
+
+  #mainimg {
+    position: relative;
+    left: 1000px
   }
 
   .foota, .foota:visited{
@@ -190,7 +218,7 @@
   
   .main {
     float: left;
-    width: 56%;
+    width: 80%;
     padding: 0px 6em;
     overflow: hidden;
   }
